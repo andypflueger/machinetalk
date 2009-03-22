@@ -1,0 +1,13 @@
+eShop is meant for manufacturing companies that need to track time and material for costing purposes. The intent of this project is to deliver such system open-source and allowing anyone to modify to fit their needs.
+
+To install:
+
+1. Extract tarball to your web/app server
+
+2. Edit config/database.yml.sample and saveas config/database.yml
+
+3. Run database migrations with rake db:migrate after creating database defined in database.yml file.
+
+4. Setup web server with Mongrel or Passenger (mod_rails) for application.
+
+That's it!
